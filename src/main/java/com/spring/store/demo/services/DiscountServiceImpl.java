@@ -7,7 +7,11 @@ import com.spring.store.demo.models.User;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
-
+/**
+ * 
+ * @author srikanthg
+ *
+ */
 @Service
 public class DiscountServiceImpl implements DiscountService {
 
