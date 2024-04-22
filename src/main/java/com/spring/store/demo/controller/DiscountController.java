@@ -10,9 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 import java.math.BigDecimal;
-
+/**
+ * 
+ * @author srikanthg
+ *
+ */
 @RestController
-@RequestMapping("api/v1/discounts")
+@RequestMapping("api/store/discounts")
 public class DiscountController {
 
     @Autowired
