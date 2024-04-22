@@ -1,4 +1,4 @@
-# The Employee and Customer Discount on Items,Grocerie
+# The Employee and Customer Discount on Items,Groceries
 
 
 ## Description
