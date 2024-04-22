@@ -1,4 +1,5 @@
-# The Retail Store Discounts
+# The Employee and Customer Discount on Items,Grocerie
+
 
 ## Description
 
@@ -71,21 +72,21 @@ Example request
 {
     "user": {
         "type": "EMPLOYEE",
-        "registerDate": "2019-06-27"
+        "registerDate": "2024-04-22"
     },
     "bill": {
         "items": [
             {
                 "type": "GROCERY",
-                "price": 2.3
+                "price": 4.3
             },
             {
                 "type": "TECHNOLOGY",
-                "price": 549
+                "price": 653
             },
             {
                 "type": "GROCERY",
-                "price": 5.3
+                "price": 4.7
             }
         ]
     }
@@ -96,5 +97,5 @@ Example request
 The response is net payable amount.
 
 ```json
-366.9
+475.67
 ```
